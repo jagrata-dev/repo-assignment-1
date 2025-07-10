@@ -153,3 +153,64 @@ header h1{
     color:rgba(0, 0, 0, 0.5)
 }
 
+/* users feedback section */
+.users-feedback-section{
+   max-width: 1140px;
+   height: 342px;
+   margin: 0 auto;
+   margin-bottom: 137px;
+}
+
+.users-feedback-section h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    margin-bottom: 50px;
+}
+
+.users-feedback-section .container{
+    display: flex;
+    justify-content:space-between;
+}
+
+.card{
+    width: 28%;
+    height: 193px;
+    border: 3px solid rgba(242, 237, 237, 1);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.title{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: rgba(30, 30, 30, 1);
+    font-size: 30px;
+}
+
+.container .subtitle{
+    color: rgba(30, 30, 30, 1);
+    font-size: 22px;
+}
+
+.reviewer{
+    display: flex;
+    gap: 20px;
+    margin-top: 24px;
+}
+
+.reviewer .name{
+    color: rgba(117, 117, 117, 1);
+}
+
+.reviewer .date{
+    color: rgba(179, 179, 179, 1);
+}
+
+.reviewer img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
