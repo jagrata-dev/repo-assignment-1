@@ -302,7 +302,36 @@ header h1{
 
 /* footer */
 footer{
-    max-width: 1440px;
     height: 428px;
     border: 2px solid blue;
+    text-align: center;
+    padding-top: 104px;
 }
+
+footer h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(78, 71, 255, 1);
+}
+
+footer .title{
+    padding-bottom: 20px;
+    color: rgba(137, 135, 161, 1);
+    font-size: 20px;
+}
+
+footer .sub-title{
+   margin-right: 48px;
+   color: rgba(137, 135, 161, 1);
+   font-size: 23px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+/* hover */
+nav button:hover, .banner-btn:hover, .action-btn:hover, .get-in-touch-btn:hover{
+    background-image: linear-gradient(to right, rgba(255,0,0,0.25), rgba(255,0,0,1));
+    cursor: pointer;
+} 
