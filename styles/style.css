@@ -223,15 +223,51 @@ header h1{
     max-width: 1140px;
     height: 696.77px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-bottom: 92.23px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 14px;
+}
+
+.ready-to-focus h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    padding-top: 71px;
+    padding-bottom: 20px;
+}
+
+.ready-to-focus .text{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.ready-to-focus img{
+    margin: auto;
+    border-radius: 68px;
+}
+
+.ready-to-focus-btn{
+    font-size: 16px;
+    font-weight: 500;
+    width: 174px;
+    height: 48px;
+    border: 0;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(78, 71, 255, 1);
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
 }
 
 /* Lets-Get-In-Touch-Section */
 .Lets-Get-In-Touch-Section{
     max-width: 1140px;
     height: 632px;
-    border: 2px solid red;
     margin: 0 auto;
     display: flex;
     gap: 115px;
@@ -303,9 +339,10 @@ header h1{
 /* footer */
 footer{
     height: 428px;
-    border: 2px solid blue;
     text-align: center;
     padding-top: 104px;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 footer h1{
@@ -331,7 +368,7 @@ footer a{
 }
 
 /* hover */
-nav button:hover, .banner-btn:hover, .action-btn:hover, .get-in-touch-btn:hover{
+nav button:hover, .banner-btn:hover, .action-btn:hover, .get-in-touch-btn:hover, .ready-to-focus-btn:hover{
     background-image: linear-gradient(to right, rgba(255,0,0,0.25), rgba(255,0,0,1));
     cursor: pointer;
 } 
